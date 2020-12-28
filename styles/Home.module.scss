@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30rem;
+}
+
+@media (max-width: 768px) {
+  .home {
+    width: 100% !important;
+  }
+  .container {
+    width: 100vw !important;
+  }
+}
